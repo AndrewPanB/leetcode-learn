@@ -42,3 +42,4 @@ class Solution {
         tempNode2.next = null;
         return first;
     }
+}
