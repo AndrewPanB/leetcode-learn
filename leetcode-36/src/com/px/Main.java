@@ -13,7 +13,7 @@ class Solution {
             for (int j = 0; j < 9; j++) {
                 char c = board[i][j];
                 if (c != '.') {
-                    int boxIndex = (i / 3) *3 + j / 3;
+                    int boxIndex = (i / 3) * 3 + j / 3;
                     if (row.get(i).get(c) != null && row.get(i).get(c)) {
                         return false;
                     } else if (column.get(j).get(c) != null && column.get(j).get(c)) {
